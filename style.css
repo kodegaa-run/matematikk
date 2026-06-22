@@ -43,15 +43,15 @@ a {
   display: block;
   margin: 12px 0;
   padding: 14px;
-  background: #eaeaea;
+  background: #0F4761;
   text-align: center;
   text-decoration: none;
-  color: black;
+  color: white;
   border-radius: 10px;
   font-size: 18px;
-  transition: 0.2s;
 }
 
 a:hover {
-  background: #d0d0d0;
+  background: #0c3a4d;
 }
+
