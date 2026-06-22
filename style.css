@@ -34,14 +34,14 @@ a {
   text-decoration: none;
 }
 
-.knapp, .tilbake{
+.knapp, .tilbake {
   display: block;
-  width: 80%;
-  max-width: 300px;
-  margin: 12px auto;
-  padding: 14px 49px;
+  width: 100%;
+  margin: 12px 0;
+  padding: 14px 18px;
+
   border-radius: 16px;
-  box-sizing: border-box;
+  white-space: normal;
   box-shadow: 0 6px 16px rgba(0,0,0,0.08);
 
   text-decoration: none;
@@ -50,7 +50,10 @@ a {
   text-align: left;
   font-size: 18px;
   font-weight: 600;
+
   background: #E2E2E2;
+
+  box-sizing: border-box;   /* ✅ viktig */
 }
 
 .knapp {
