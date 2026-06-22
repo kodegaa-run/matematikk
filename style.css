@@ -41,6 +41,7 @@ a {
   margin: 12px auto;
   padding: 14px 49px;
   border-radius: 16px;
+  box-sizing: border-box;
   box-shadow: 0 6px 16px rgba(0,0,0,0.08);
 
   text-decoration: none;
