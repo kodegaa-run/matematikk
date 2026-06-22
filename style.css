@@ -37,7 +37,8 @@ h1::after {
   text-decoration: none;
   border-radius: 10px;
   font-size: 18px;
-
+  
+  letter-spacing: 1px;
   border-radius: 16px;
   box-shadow: 0 6px 16px rgba(0,0,0,0.08);
 
