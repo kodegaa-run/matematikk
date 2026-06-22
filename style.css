@@ -31,41 +31,34 @@ h1::after {
 
 
 .knapp {
-  background: #E2E2E2;
-  color: #0F4761;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 10px;
-  font-size: 18px;
-  
-  border-radius: 16px;
-  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
-
-  transition: all 0.2s ease;
-}
-
-
-.knapp:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.12);
-}
-
-
-a {
   display: block;
   width: 80%;
   max-width: 300px;
   margin: 12px auto;
   padding: 14px;
+
+  background: #E2E2E2;
+  color: #0F4761;
+
+  text-align: center;
+  font-size: 18px;
   font-weight: 600;
-  border-radius: 16px; /* 👈 rundere */
-  box-shadow: 0 6px 16px rgba(0,0,0,0.08); /* 👈 "kort"-effekt */
+
+  border-radius: 16px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+
+  text-decoration: none;
+
   transition: all 0.2s ease;
-
 }
 
-
-a:hover {
+.knapp:hover {
   background: #B3DFF3;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.12);
 }
 
+a {
+  color: #0F4761;
+  text-decoration: none;
+}
