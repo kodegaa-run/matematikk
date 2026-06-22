@@ -52,16 +52,14 @@ a {
   background: #E2E2E2;
 }
 
-.knapp {
-  color: #0F4761;
-
-
-}
-
 .knapp:hover, .tilbake:hover{
   background: #B3DFF3;
   transform: translateY(-3px);
   box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+}
+
+.knapp {
+  color: #0F4761;
 }
 
 .tilbake {
