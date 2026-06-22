@@ -49,6 +49,8 @@ a {
   color: white;
   border-radius: 10px;
   font-size: 18px;
+  max-width: 300px;
+  padding: 12px 20px;
 }
 
 a:hover {
