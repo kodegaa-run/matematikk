@@ -39,21 +39,24 @@ h1::after {
   background: #d0d0d0;
 }
 
+
 a {
   display: block;
-  margin: 12px 0;
+  width: 80%;
+  max-width: 300px;
+  margin: 12px auto;
   padding: 14px;
-  background: #0F4761;
+
+  background: #E2E2E2;
   text-align: center;
   text-decoration: none;
-  color: white;
+  color: #0F4761;
   border-radius: 10px;
   font-size: 18px;
-  max-width: 100px;
-  padding: 12px 20px;
 }
 
+
 a:hover {
-  background: #0c3a4d;
+  background: #B3DFF3;
 }
 
